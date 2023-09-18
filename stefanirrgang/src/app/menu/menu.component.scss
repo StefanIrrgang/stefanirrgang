@@ -1,0 +1,16 @@
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 1;
+    padding: 0px 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        height: 50px;
+    }
+}
