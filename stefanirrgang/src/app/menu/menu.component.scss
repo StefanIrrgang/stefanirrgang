@@ -2,6 +2,7 @@ header {
     position: absolute;
     left: 0;
     right: 0;
+    top: 0;
     height: 80px;
     z-index: 1;
     padding: 0px 120px;
@@ -10,7 +11,50 @@ header {
     align-items: center;
     justify-content: space-between;
 
+    a {
+        color: white;
+        text-decoration: none;
+        margin-left: 32px;
+        font-weight: 500;
+
+        &:hover {
+            color: rgba(255,255,255,0.8);
+        }
+    }
+
     img {
         height: 50px;
     }
+
+    p {
+        color: white;
+        font-weight: 500;
+        font-size: 24px;
+        border-color: black;
+        border-width: 1px;
+    }
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.darkLinks {
+    a {
+        color: black;
+
+        &:hover {
+            color: rgba(0,0,0,0.8);
+        }
+    }
+    p {
+        color: black;
+    }
+}
+
+.headerDark{
+    background-color: white;
+    box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.2);
 }
